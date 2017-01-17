@@ -18,7 +18,7 @@ public class DirectoryStructureTest extends TestCase {
     FileParserService fileParserService = null;
     List<TreeModel> listOfFiles = null;
     TreeModel directoryStructure = null;
-
+//set up method
     @Override
     protected void setUp() throws Exception {
         super.setUp();
