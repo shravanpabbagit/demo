@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by j.reddy.yedla on 10/20/2016.
+ * Created by pabba.shravan on 10/20/2016.
  *  This Class contains setter and getter methods to store the parsed CSV data and to print the Tree structure format.
  */
 public class TreeModel implements Comparable  {
