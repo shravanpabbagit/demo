@@ -1,10 +1,10 @@
 package model;
 
-import main.ClassificationType;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
+import main.ClassificationType;
 
 /**
  * Created by pabba.shravan on 10/20/2016.
@@ -20,7 +20,7 @@ public class TreeModel implements Comparable  {
     private int checksum;
     private TreeModel parentTreeModel;
     private List<TreeModel> childTreeModel;
-
+//constractor
     public TreeModel(int id, int parentId, String name, String type, int size, String classification, int checksum) {
         this.id = id;
         this.parentId = parentId;
