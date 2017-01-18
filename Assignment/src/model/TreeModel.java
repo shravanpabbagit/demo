@@ -20,7 +20,7 @@ public class TreeModel implements Comparable  {
     private int checksum;
     private TreeModel parentTreeModel;
     private List<TreeModel> childTreeModel;
-//constractor is public
+//constractor is public abc
     public TreeModel(int id, int parentId, String name, String type, int size, String classification, int checksum) {
         this.id = id;
         this.parentId = parentId;
